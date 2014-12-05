@@ -34,7 +34,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="GNaP.DependencyInjection">
-      <HintPath>..\..\lib\GNaP.DependencyInjection.dll</HintPath>
+      <HintPath>..\packages\GNaP.DependencyInjection.1.0.1.0\lib\net45\GNaP.DependencyInjection.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Practices.ServiceLocation">
       <HintPath>..\packages\CommonServiceLocator.1.3\lib\portable-net4+sl5+netcore45+wpa81+wp8\Microsoft.Practices.ServiceLocation.dll</HintPath>
@@ -54,7 +54,7 @@
       <Link>CommonAssemblyInfo.cs</Link>
     </Compile>
     <Compile Include="AutoRegisterExtensions.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="AssemblyInfo.cs" />
     <Compile Include="StructureMap.cs" />
     <Compile Include="StructureMapAdapter.cs" />
   </ItemGroup>
@@ -62,7 +62,11 @@
     <Content Include="gnap.ico" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="GNaP.DependencyInjection.StructureMap.nuspec" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
