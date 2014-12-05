@@ -3,7 +3,8 @@ GNaP.DependencyInjection.StructureMap
 
 ## NuGet
 
-[GNaP.DependencyInjection.StructureMap](https://www.nuget.org/packages/GNaP.DependencyInjection.StructureMap/)
+  * [GNaP.DependencyInjection.StructureMap](https://www.nuget.org/packages/GNaP.DependencyInjection.StructureMap/)
+  * [GNaP.DependencyInjection.StructureMap.Web](https://www.nuget.org/packages/GNaP.DependencyInjection.StructureMap.Web/)
 
 ## Copyright
 
